@@ -299,7 +299,6 @@ public class SandboxListas
     {
     	if (otroArreglo == null || otroArreglo.length != listaEnteros.size())
             return false;
-
         for (int i = 0; i < otroArreglo.length; i++)
         {
             if (listaEnteros.get(i) != otroArreglo[i])

@@ -172,7 +172,6 @@ public class SandboxConjuntos
     public void volverMayusculas( )
     {
     	TreeSet<String> nuevo = new TreeSet<>();
-
         for (String s : arbolCadenas)
         {
             nuevo.add(s.toUpperCase());

@@ -174,7 +174,6 @@ public class SandboxMapas
     public void reiniciarMapaCadenas( List<Object> objetos )
     {
     	mapaCadenas.clear();
-
         for (Object o : objetos)
         {
             String valor = o.toString();
